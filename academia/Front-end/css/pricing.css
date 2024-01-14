@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+}
+
+.pricing {
+  color: #090909;
+  position: relative;
+  height: 400px;
+  width: 300px;
+  margin-top: 80px;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: #ffffff;
+  transition: ease 0.2s;
+  padding: 30px;
+  text-align: center;
+  background-color: rgba(255, 255, 255);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.pricing:hover {
+  transform: scale(1.1);
+}
+
+.topcolor {
+  position: fixed;
+  height: 15px;
+  width: 300px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.r2 {
+  position: relative;
+  top: 70px;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: #090909;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.desc {
+  margin-top: 10px;
+  line-height: 2;
+  text-align: left;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.basic {
+  background-color: grey;
+}
+
+.standard {
+  background-color: rgb(255, 73, 73);
+}
+
+.premium {
+  background-color: #ffd700;
+}

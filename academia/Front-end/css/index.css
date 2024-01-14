@@ -1,0 +1,58 @@
+.maintxt {
+  margin-top: 100px;
+  font-size: 60px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  padding-left: 60px;
+}
+
+.mt1 {
+  line-height: 0.8;
+}
+
+.mt2 {
+  color: #d9ff53;
+  font-size: 160%;
+  line-height: 0.9;
+}
+
+.desc {
+  line-height: 1.2;
+  font-weight: 400;
+  font-size: 31%;
+  padding-left: 5px;
+  margin-bottom: 20px;
+}
+
+.r2 {
+  position: absolute;
+  font-size: 32px;
+  transition: ease 0.2s;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.maintxt .r2:hover {
+  transform: scale(1.15);
+  background-color: #ebfcad;
+}
+
+.woman {
+  position: absolute;
+  max-width: 780px;
+  bottom: 0px;
+  right: -200px;
+  z-index: 2;
+  margin-right: 110px;
+}
+
+.greencircle {
+  position: absolute;
+  border-radius: 50%;
+  width: 580px;
+  height: 580px;
+  bottom: -120px;
+  right: -150px;
+  background-color: #d9ff53;
+  filter: drop-shadow(0px 0px 50px #d9ff53);
+}

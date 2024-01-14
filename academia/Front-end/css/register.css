@@ -1,0 +1,51 @@
+.login {
+    background-image: url(/assets/noisebg.png);
+    background-color: #222222;
+    margin-top: 70px;
+    margin-left: 65px;
+    margin-right: 65px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #d9ff53;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.heading {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.text-field {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #d9ff53;
+    padding: 10px 20px;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: ease 0.2s;
+}
+
+button:hover {
+    transform: scale(1.15);
+}

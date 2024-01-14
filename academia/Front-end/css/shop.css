@@ -1,0 +1,72 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  color: #090909;
+  position: relative;
+  height: 350px;
+  width: 230px;
+  margin-top: 80px;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: #ffffff;
+  transition: ease 0.2s;
+  padding: 30px;
+  text-align: center;
+  background-color: rgba(255, 255, 255);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.about:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 100px rgb(217, 255, 83, 0.3);
+  background-color: #d9ff53;
+}
+
+img {
+  max-width: 150px;
+  margin-top: 20px;
+}
+
+.tenis {
+  margin-top: 30px;
+}
+
+.img {
+  height: 200px;
+  width: 180px;
+  border: 4px solid #313131;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.titles {
+  margin-bottom: 30px;
+}
+
+.desc {
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  background-image: url(/assets/noisebg.png);
+  background-color: #313131;
+  margin: 0 auto;
+}
+
+.svg{
+  position: relative;
+  bottom: 80px;
+}
+
+.svgbottom{
+  max-width: 1366px;
+  max-height: 768px;
+  background-color: #d9ff53;
+}

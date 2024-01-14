@@ -1,0 +1,50 @@
+body {
+  background-image: url(/assets/noisebg.png);
+  background-color: #090909;
+  color: #f6f6f6;
+  font-family: Montserrat;
+  font-weight: 400;
+  user-select: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1024px;
+  padding: 10px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.headerlinks {
+  position: relative;
+  margin-left: 40px;
+  color: white;
+  transition: ease 0.2s;
+}
+
+.headerlinks:hover {
+  transform: scale(1.15);
+}
+
+.register {
+  background-color: #d9ff53;
+  padding: 20px;
+  color: #090909;
+  font-weight: 700;
+}
+
+.logoimg {
+  position: relative;
+  margin-right: auto;
+  max-width: 60px;
+}
+
+.main {
+  max-width: 1024px;
+  padding: 0px;
+  margin: 0 auto;
+}
